@@ -1,0 +1,263 @@
+<http://data.usgs.gov/structures/usgs_structures.60>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4058> .
+
+<http://data.usgs.gov/structures/usgs_structures.1>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4035> .
+
+<http://data.usgs.gov/structures/usgs_structures.45>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.5022> .
+
+<http://data.usgs.gov/structures/usgs_structures.17>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4017> .
+
+<http://data.usgs.gov/structures/usgs_structures.58>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4060> .
+
+<http://data.usgs.gov/structures/usgs_structures.11>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4059> .
+
+<http://data.usgs.gov/structures/usgs_structures.52>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4042> .
+
+<http://data.usgs.gov/structures/usgs_structures.24>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.832> .
+
+<http://data.usgs.gov/structures/usgs_structures.65>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4011> .
+
+<http://data.usgs.gov/structures/usgs_structures.37>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.3422> .
+
+<http://data.usgs.gov/structures/usgs_structures.6>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4006> .
+
+<http://data.usgs.gov/structures/usgs_structures.31>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4071> .
+
+<http://data.usgs.gov/structures/usgs_structures.44>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.5023> .
+
+<http://data.usgs.gov/structures/usgs_structures.16>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4040> .
+
+<http://data.usgs.gov/structures/usgs_structures.57>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4032> .
+
+<http://data.usgs.gov/structures/usgs_structures.29>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4067> .
+
+<http://data.usgs.gov/structures/usgs_structures.10>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4061> .
+
+<http://data.usgs.gov/structures/usgs_structures.51>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4037> .
+
+<http://data.usgs.gov/structures/usgs_structures.23>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4022> .
+
+<http://data.usgs.gov/structures/usgs_structures.64>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4033> .
+
+<http://data.usgs.gov/structures/usgs_structures.36>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4014> .
+
+<http://data.usgs.gov/structures/usgs_structures.5>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.5021> .
+
+<http://data.usgs.gov/structures/usgs_structures.49>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.2341> .
+
+<http://data.usgs.gov/structures/usgs_structures.30>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.5190> .
+
+<http://data.usgs.gov/structures/usgs_structures.43>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.5191> .
+
+<http://data.usgs.gov/structures/usgs_structures.15>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4066> .
+
+<http://data.usgs.gov/structures/usgs_structures.56>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4025> .
+
+<http://data.usgs.gov/structures/usgs_structures.28>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4065> .
+
+<http://data.usgs.gov/structures/usgs_structures.50>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.2842> .
+
+<http://data.usgs.gov/structures/usgs_structures.22>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4016> .
+
+<http://data.usgs.gov/structures/usgs_structures.63>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4015> .
+
+<http://data.usgs.gov/structures/usgs_structures.35>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4029> .
+
+<http://data.usgs.gov/structures/usgs_structures.4>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4039> .
+
+<http://data.usgs.gov/structures/usgs_structures.48>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4031> .
+
+<http://data.usgs.gov/structures/usgs_structures.42>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4009> .
+
+<http://data.usgs.gov/structures/usgs_structures.14>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4023> .
+
+<http://data.usgs.gov/structures/usgs_structures.55>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4013> .
+
+<http://data.usgs.gov/structures/usgs_structures.27>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.1500> .
+
+<http://data.usgs.gov/structures/usgs_structures.9>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4008> .
+
+<http://data.usgs.gov/structures/usgs_structures.21>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4018> .
+
+<http://data.usgs.gov/structures/usgs_structures.62>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4034> .
+
+<http://data.usgs.gov/structures/usgs_structures.34>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.2565> .
+
+<http://data.usgs.gov/structures/usgs_structures.3>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4028> .
+
+<http://data.usgs.gov/structures/usgs_structures.47>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.476> .
+
+<http://data.usgs.gov/structures/usgs_structures.19>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.1579> .
+
+<http://data.usgs.gov/structures/usgs_structures.41>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4026> .
+
+<http://data.usgs.gov/structures/usgs_structures.13>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4063> .
+
+<http://data.usgs.gov/structures/usgs_structures.54>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4021> .
+
+<http://data.usgs.gov/structures/usgs_structures.26>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4062> .
+
+<http://data.usgs.gov/structures/usgs_structures.67>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4019> .
+
+<http://data.usgs.gov/structures/usgs_structures.39>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.1957> .
+
+<http://data.usgs.gov/structures/usgs_structures.8>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4024> .
+
+<http://data.usgs.gov/structures/usgs_structures.20>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.3109> .
+
+<http://data.usgs.gov/structures/usgs_structures.61>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.2624> .
+
+<http://data.usgs.gov/structures/usgs_structures.33>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4030> .
+
+<http://data.usgs.gov/structures/usgs_structures.2>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4064> .
+
+<http://data.usgs.gov/structures/usgs_structures.46>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.2324> .
+
+<http://data.usgs.gov/structures/usgs_structures.18>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.3420> .
+
+<http://data.usgs.gov/structures/usgs_structures.59>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4036> .
+
+<http://data.usgs.gov/structures/usgs_structures.40>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4038> .
+
+<http://data.usgs.gov/structures/usgs_structures.12>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.284> .
+
+<http://data.usgs.gov/structures/usgs_structures.53>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4027> .
+
+<http://data.usgs.gov/structures/usgs_structures.25>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4041> .
+
+<http://data.usgs.gov/structures/usgs_structures.66>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4012> .
+
+<http://data.usgs.gov/structures/usgs_structures.38>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.2704> .
+
+<http://data.usgs.gov/structures/usgs_structures.7>
+        <http://www.w3.org/2002/07/owl#sameAs>
+                <http://data.usgs.gov/gnis/GNIS_DC_Features_20180401.4020> .
