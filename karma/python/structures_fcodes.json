@@ -1,0 +1,1134 @@
+[
+     {
+      "name": "Transportation Facility",
+      "code": 81000
+     },
+     {
+      "name": "Airport Terminal",
+      "code": 81006
+     },
+     {
+      "name": "Air Support / Maintenance Facility",
+      "code": 81008
+     },
+     {
+      "name": "Air Traffic Control Center / Command Center",
+      "code": 81010
+     },
+     {
+      "name": "Boat Ramp / Dock",
+      "code": 81011
+     },
+     {
+      "name": "Bridge",
+      "code": 81012
+     },
+     {
+      "name": "Bridge:  Light Rail / Subway",
+      "code": 81014
+     },
+     {
+      "name": "Bridge:  Railroad",
+      "code": 81016
+     },
+     {
+      "name": "Bridge:  Road",
+      "code": 81018
+     },
+     {
+      "name": "Border Crossing / Port of Entry",
+      "code": 81020
+     },
+     {
+      "name": "Bus Station / Dispatch Facility",
+      "code": 81022
+     },
+     {
+      "name": "Ferry Terminal / Dispatch Facility",
+      "code": 81024
+     },
+     {
+      "name": "Harbor / Marina",
+      "code": 81025
+     },
+     {
+      "name": "Helipad / Heliport / Helispot",
+      "code": 81026
+     },
+     {
+      "name": "Launch Facility",
+      "code": 81028
+     },
+     {
+      "name": "Launch Pad",
+      "code": 81030
+     },
+     {
+      "name": "Light Rail Power Substation",
+      "code": 81032
+     },
+     {
+      "name": "Light Rail Station",
+      "code": 81034
+     },
+     {
+      "name": "Park and Ride / Commuter Lot",
+      "code": 81036
+     },
+     {
+      "name": "Parking Lot Structure / Garage",
+      "code": 81038
+     },
+     {
+      "name": "Pier / Wharf / Quay / Mole",
+      "code": 81040
+     },
+     {
+      "name": "Port Facility",
+      "code": 81042
+     },
+     {
+      "name": "Port Facility: Commercial Port",
+      "code": 81044
+     },
+     {
+      "name": "Port Facility: Crane",
+      "code": 81046
+     },
+     {
+      "name": "Port Facility: Maintenance and Fuel Facility",
+      "code": 81048
+     },
+     {
+      "name": "Port Facility: Modal Transfer Facility",
+      "code": 81050
+     },
+     {
+      "name": "Port Facility: Passenger Terminal",
+      "code": 81052
+     },
+     {
+      "name": "Port Facility: Warehouse Storage / Container Yard",
+      "code": 81054
+     },
+     {
+      "name": "Railroad Facility",
+      "code": 81056
+     },
+     {
+      "name": "Railroad Command / Control Facility",
+      "code": 81058
+     },
+     {
+      "name": "Railroad Freight Loading Facility",
+      "code": 81060
+     },
+     {
+      "name": "Railroad Maintenance / Fuel Facility",
+      "code": 81062
+     },
+     {
+      "name": "Railroad Roundhouse / Turntable",
+      "code": 81064
+     },
+     {
+      "name": "Railroad Station",
+      "code": 81066
+     },
+     {
+      "name": "Railroad Yard",
+      "code": 81068
+     },
+     {
+      "name": "Rest Stop / Roadside Park",
+      "code": 81070
+     },
+     {
+      "name": "Seaplane Anchorage / Base",
+      "code": 81072
+     },
+     {
+      "name": "Snowshed",
+      "code": 81073
+     },
+     {
+      "name": "Subway Station",
+      "code": 81074
+     },
+     {
+      "name": "Toll Booth / Plaza",
+      "code": 81076
+     },
+     {
+      "name": "Truck Stop",
+      "code": 81078
+     },
+     {
+      "name": "Tunnel",
+      "code": 81080
+     },
+     {
+      "name": "Tunnel:  Light Rail / Subway",
+      "code": 81082
+     },
+     {
+      "name": "Tunnel:  Road",
+      "code": 81084
+     },
+     {
+      "name": "Tunnel:  Railroad",
+      "code": 81086
+     },
+     {
+      "name": "Weigh Station / Inspection Station",
+      "code": 81088
+     },
+      {
+       "name": "Agriculture or Livestock Structure",
+       "code": 70100
+      },
+      {
+       "name": "Agricultural Experimental Station",
+       "code": 70101
+      },
+      {
+       "name": "Food Industry Facility",
+       "code": 70102
+      },
+      {
+       "name": "Bakery (Regional)",
+       "code": 70103
+      },
+      {
+       "name": "Beverage Bottling Plant",
+       "code": 70104
+      },
+      {
+       "name": "Brewery / Distillery / Winery",
+       "code": 70106
+      },
+      {
+       "name": "Cannery",
+       "code": 70108
+      },
+      {
+       "name": "Corral",
+       "code": 70110
+      },
+      {
+       "name": "Dairy",
+       "code": 70112
+      },
+      {
+       "name": "Farm / Ranch",
+       "code": 70114
+      },
+      {
+       "name": "Feedlot",
+       "code": 70116
+      },
+      {
+       "name": "Food Distribution Center",
+       "code": 70118
+      },
+      {
+       "name": "Fish Farm / Hatchery",
+       "code": 70120
+      },
+      {
+       "name": "Fish Ladder",
+       "code": 70121
+      },
+      {
+       "name": "Grain Elevator",
+       "code": 70122
+      },
+      {
+       "name": "Grain Mill",
+       "code": 70124
+      },
+      {
+       "name": "Greenhouse / Nursery",
+       "code": 70126
+      },
+      {
+       "name": "Livestock Complex",
+       "code": 70128
+      },
+      {
+       "name": "Meat Processing / Packaging Facility",
+       "code": 70130
+      },
+      {
+       "name": "Stockyard / Feedlot",
+       "code": 70132
+      },
+      {
+       "name": "Veterinary Hospital / Clinic",
+       "code": 70134
+      },
+      {
+       "name": "Industrial Facility",
+       "code": 71000
+      },
+      {
+       "name": "Chemical Facility",
+       "code": 71001
+      },
+      {
+       "name": "Manufacturing Facility",
+       "code": 71002
+      },
+      {
+       "name": "Aircraft Manufacturing Facility",
+       "code": 71004
+      },
+      {
+       "name": "Armament Manufacturing Facility",
+       "code": 71006
+      },
+      {
+       "name": "Automotive Manufacturing Facility",
+       "code": 71008
+      },
+      {
+       "name": "Durable / Non-Durable Goods Facility",
+       "code": 71010
+      },
+      {
+       "name": "Explosives Facility",
+       "code": 71012
+      },
+      {
+       "name": "Fertilizer Facility",
+       "code": 71014
+      },
+      {
+       "name": "Hazardous Materials Facility",
+       "code": 71016
+      },
+      {
+       "name": "Hazardous Waste Facility",
+       "code": 71018
+      },
+      {
+       "name": "Household Products Facility",
+       "code": 71020
+      },
+      {
+       "name": "Landfill",
+       "code": 71022
+      },
+      {
+       "name": "Lumber Mill / Saw Mill",
+       "code": 71024
+      },
+      {
+       "name": "Maintenance Yard",
+       "code": 71026
+      },
+      {
+       "name": "Manufacturing Warehouse",
+       "code": 71028
+      },
+      {
+       "name": "Mine",
+       "code": 71030
+      },
+      {
+       "name": "Mine Waste Disposal Site",
+       "code": 71032
+      },
+      {
+       "name": "Mine Uranium Facility",
+       "code": 71034
+      },
+      {
+       "name": "Nuclear Weapons Facility",
+       "code": 71036
+      },
+      {
+       "name": "Ore Processing Facility",
+       "code": 71038
+      },
+      {
+       "name": "Paper / Pulp Mill",
+       "code": 71040
+      },
+      {
+       "name": "Pharmaceutical Plant",
+       "code": 71042
+      },
+      {
+       "name": "Semiconductor and Microchip Facility",
+       "code": 71044
+      },
+      {
+       "name": "Shipyard",
+       "code": 71046
+      },
+      {
+       "name": "Steel Plant",
+       "code": 71048
+      },
+      {
+       "name": "Superfund Site",
+       "code": 71050
+      },
+      {
+       "name": "Textile Plant",
+       "code": 71052
+      },
+      {
+       "name": "Commercial or Retail Facility",
+       "code": 72000
+      },
+      {
+       "name": "Corporate Headquarters",
+       "code": 72002
+      },
+      {
+       "name": "Gas Station",
+       "code": 72004
+      },
+      {
+       "name": "Grocery Store",
+       "code": 72006
+      },
+      {
+       "name": "Hotel / Motel",
+       "code": 72008
+      },
+      {
+       "name": "Shopping Mall / Complex",
+       "code": 72010
+      },
+      {
+       "name": "Warehouse (Retail / Wholesale)",
+       "code": 72012
+      },
+      {
+       "name": "Education Facility",
+       "code": 73000
+      },
+      {
+       "name": "School",
+       "code": 73002
+      },
+      {
+       "name": "School: Elementary",
+       "code": 73003
+      },
+      {
+       "name": "School: Middle School",
+       "code": 73004
+      },
+      {
+       "name": "School: High School",
+       "code": 73005
+      },
+      {
+       "name": "College / University",
+       "code": 73006
+      },
+      {
+       "name": "Technical / Trade School",
+       "code": 73007
+      },
+
+      {
+       "name": "Emergency Response or Law Enforcement Facility",
+       "code": 74000
+      },
+      {
+       "name": "Ambulance Service",
+       "code": 74001
+      },
+      {
+       "name": "American Red Cross Facility",
+       "code": 74002
+      },
+      {
+       "name": "Border Patrol",
+       "code": 74004
+      },
+      {
+       "name": "Bureau of Alchohol, Tobacco, and Firearms",
+       "code": 74006
+      },
+      {
+       "name": "Civil Defense",
+       "code": 74008
+      },
+      {
+       "name": "Coast Guard",
+       "code": 74010
+      },
+      {
+       "name": "Customs Service",
+       "code": 74012
+      },
+      {
+       "name": "Department of Justice",
+       "code": 74014
+      },
+      {
+       "name": "Drug Enforcement Agency",
+       "code": 74016
+      },
+      {
+       "name": "Federal Bureau of Investigation",
+       "code": 74018
+      },
+      {
+       "name": "Federal Emergency Management Agency",
+       "code": 74020
+      },
+      {
+       "name": "Fire Equipment Manufacturer",
+       "code": 74022
+      },
+      {
+       "name": "Fire Hydrant",
+       "code": 74024
+      },
+      {
+       "name": "Fire Station / EMS Station",
+       "code": 74026
+      },
+      {
+       "name": "Fire Training Facility / Academy",
+       "code": 74028
+      },
+      {
+       "name": "Immigration and Naturalization Service",
+       "code": 74030
+      },
+      {
+       "name": "Marshal Service",
+       "code": 74032
+      },
+      {
+       "name": "Law Enforcement",
+       "code": 74034
+      },
+      {
+       "name": "Prison / Correctional Facility",
+       "code": 74036
+      },
+      {
+       "name": "Public Safety Office",
+       "code": 74037
+      },
+      {
+       "name": "Search and Rescue Office / Facility",
+       "code": 74038
+      },
+      {
+       "name": "Secret Service",
+       "code": 74040
+      },
+      {
+       "name": "Transportation Safety Board",
+       "code": 74042
+      },
+      {
+       "name": "Office of Emergency Management",
+       "code": 74044
+      },
+      {
+       "name": "Emergency Operations Center",
+       "code": 74017
+      },
+
+      {
+       "name": "Energy Facility",
+       "code": 75000
+      },
+      {
+       "name": "Energy Distribution Control Facility",
+       "code": 75002
+      },
+      {
+       "name": "Natural Gas Facility",
+       "code": 75004
+      },
+      {
+       "name": "Nuclear Fuel Plant",
+       "code": 75006
+      },
+      {
+       "name": "Nuclear Research Facility",
+       "code": 75008
+      },
+      {
+       "name": "Nuclear Waste Processing / Storage Facility",
+       "code": 75009
+      },
+      {
+       "name": "Nuclear Weapons Plant",
+       "code": 75010
+      },
+      {
+       "name": "Oil / Gas Facility",
+       "code": 75012
+      },
+      {
+       "name": "Oil / Gas Well or Field",
+       "code": 75014
+      },
+      {
+       "name": "Oil / Gas Extraction or Injection Well",
+       "code": 75016
+      },
+      {
+       "name": "Oil / Gas Pumping Station",
+       "code": 75018
+      },
+      {
+       "name": "Oil / Gas Refinery",
+       "code": 75020
+      },
+      {
+       "name": "Oil / Gas Processing Plant",
+       "code": 75022
+      },
+      {
+       "name": "Oil / Gas Storage Facility / Tank Farm",
+       "code": 75024
+      },
+      {
+       "name": "POL Storage Tank",
+       "code": 75026
+      },
+      {
+       "name": "Strategic Petroleum Reserve",
+       "code": 75028
+      },
+      {
+       "name": "Electric Facility",
+       "code": 75030
+      },
+      {
+       "name": "Hydroelectric Facility",
+       "code": 75032
+      },
+      {
+       "name": "Nuclear Facility",
+       "code": 75034
+      },
+      {
+       "name": "Solar Facility",
+       "code": 75036
+      },
+      {
+       "name": "Substation",
+       "code": 75038
+      },
+      {
+       "name": "Coal Facility",
+       "code": 75039
+      },
+      {
+       "name": "Wind Facility",
+       "code": 75040
+      },
+      {
+       "name": "Waste / Biomass Facility",
+       "code": 75041
+      },
+      {
+       "name": "Tidal Facility",
+       "code": 75042
+      },
+      {
+       "name": "Geothermal Facility",
+       "code": 75043
+      },
+
+      {
+       "name": "Banking or Finance Facility",
+       "code": 76000
+      },
+      {
+       "name": "Bank",
+       "code": 76004
+      },
+      {
+       "name": "Bullion Repository",
+       "code": 76006
+      },
+      {
+       "name": "Check Clearing Center",
+       "code": 76008
+      },
+      {
+       "name": "Commodities Exchange",
+       "code": 76010
+      },
+      {
+       "name": "Federal Reserve Bank / Branch",
+       "code": 76012
+      },
+      {
+       "name": "Financial Processing Center",
+       "code": 76014
+      },
+      {
+       "name": "Financial Services Company",
+       "code": 76016
+      },
+      {
+       "name": "Investment / Brokerage Center",
+       "code": 76018
+      },
+      {
+       "name": "Insurance and Finance Center",
+       "code": 76020
+      },
+      {
+       "name": "Stock Exchange",
+       "code": 76022
+      },
+      {
+       "name": "US Mint / Bureau of Engraving and Printing",
+       "code": 76024
+      },
+
+      {
+       "name": "Mail or Shipping Facility",
+       "code": 78000
+      },
+      {
+       "name": "Air Shipping Hub",
+       "code": 78002
+      },
+      {
+       "name": "Bulk Mail Center",
+       "code": 78004
+      },
+      {
+       "name": "Post Office",
+       "code": 78006
+      },
+      {
+       "name": "Private and Express Shipping Facility",
+       "code": 78008
+      },
+ 
+      {
+       "name": "Building General",
+       "code": 79000
+      },
+      {
+       "name": "Mobile Home Park",
+       "code": 79002
+      },
+      {
+       "name": "Multi-Family Dwelling",
+       "code": 79004
+      },
+      {
+       "name": "Single-Family Dwelling",
+       "code": 79006
+      },
+      {
+       "name": "Institutional Residence / Dorm / Barracks",
+       "code": 79008
+      },
+
+      {
+       "name": "Health or Medical Facility",
+       "code": 80000
+      },
+      {
+       "name": "Blood Bank",
+       "code": 80002
+      },
+      {
+       "name": "Center for Disease Control Office",
+       "code": 80004
+      },
+      {
+       "name": "Day Care Facility",
+       "code": 80006
+      },
+      {
+       "name": "Diagnostic Laboratory",
+       "code": 80008
+      },
+      {
+       "name": "Emergency Shelter",
+       "code": 80009
+      },
+      {
+       "name": "Homeless Shelter",
+       "code": 80010
+      },
+      {
+       "name": "Hospice",
+       "code": 80011
+      },
+      {
+       "name": "Hospital / Medical Center",
+       "code": 80012
+      },
+      {
+       "name": "Medical Research Laboratory",
+       "code": 80014
+      },
+      {
+       "name": "Medical Stockpile Facility",
+       "code": 80016
+      },
+      {
+       "name": "Morgue",
+       "code": 80018
+      },
+      {
+       "name": "Mortuary / Crematory",
+       "code": 80020
+      },
+      {
+       "name": "Nursing Home / Long Term Care",
+       "code": 80022
+      },
+      {
+       "name": "Outpatient Clinic",
+       "code": 80024
+      },
+      {
+       "name": "Pharmacy",
+       "code": 80026
+      },
+      {
+       "name": "Psychiatric Facility",
+       "code": 80027
+      },
+      {
+       "name": "Public Health Office",
+       "code": 80028
+      },
+      {
+       "name": "Rehabilitation Center",
+       "code": 80030
+      },
+      {
+       "name": "Substance Abuse Facility",
+       "code": 80034
+      },
+
+      {
+       "name": "Public Attraction or Landmark Building",
+       "code": 82000
+      },
+      {
+       "name": "Amusement / Water Park",
+       "code": 82002
+      },
+      {
+       "name": "Arboretum / Botanical Garden",
+       "code": 82004
+      },
+      {
+       "name": "Auditorium / Concert Hall / Theater / Opera House",
+       "code": 82006
+      },
+      {
+       "name": "Campground",
+       "code": 82008
+      },
+      {
+       "name": "Cemetery",
+       "code": 82010
+      },
+      {
+       "name": "Community / Recreation Center",
+       "code": 82011
+      },
+      {
+       "name": "Convention Center",
+       "code": 82012
+      },
+      {
+       "name": "Fair / Exhibition / Rodeo Grounds",
+       "code": 82014
+      },
+      {
+       "name": "Golf Course",
+       "code": 82016
+      },
+      {
+       "name": "Historic Site / Point of Interest",
+       "code": 82018
+      },
+      {
+       "name": "House of Worship",
+       "code": 82020
+      },
+      {
+       "name": "Ice Arena",
+       "code": 82022
+      },
+      {
+       "name": "Library",
+       "code": 82024
+      },
+      {
+       "name": "Lighthouse / Light",
+       "code": 82026
+      },
+      {
+       "name": "Lookout Tower",
+       "code": 82028
+      },
+      {
+       "name": "Marina",
+       "code": 82030
+      },
+      {
+       "name": "Museum",
+       "code": 82032
+      },
+      {
+       "name": "National Symbol / Monument",
+       "code": 82034
+      },
+      {
+       "name": "Observatory",
+       "code": 82036
+      },
+      {
+       "name": "Outdoor Theater / Amphitheater",
+       "code": 82038
+      },
+      {
+       "name": "Picnic Area",
+       "code": 82040
+      },
+      {
+       "name": "Racetrack / Dragstrip",
+       "code": 82042
+      },
+      {
+       "name": "Ski Area / Ski Resort",
+       "code": 82044
+      },
+      {
+       "name": "Sports Arena / Stadium",
+       "code": 82046
+      },
+      {
+       "name": "Trailhead",
+       "code": 82047
+      },
+      {
+       "name": "Visitor / Information Center",
+       "code": 82048
+      },
+      {
+       "name": "Zoo",
+       "code": 82050
+      },
+
+      {
+       "name": "Weather Facility or Structure",
+       "code": 84000
+      },
+      {
+       "name": "Warning Center",
+       "code": 84002
+      },
+      {
+       "name": "Weather Data Center",
+       "code": 84004
+      },
+      {
+       "name": "Weather Forecast Office",
+       "code": 84006
+      },
+      {
+       "name": "Weather Radar Site",
+       "code": 84008
+      },
+
+      {
+       "name": "Water Supply or Treatment Facility",
+       "code": 85000
+      },
+      {
+       "name": "Potable Water Facility",
+       "code": 85001
+      },
+      {
+       "name": "Public Water Supply Intake",
+       "code": 85002
+      },
+      {
+       "name": "Public Water Supply Well",
+       "code": 85004
+      },
+      {
+       "name": "Wastewater Treatment Plant",
+       "code": 85006
+      },
+      {
+       "name": "Water Pumping Station",
+       "code": 85008
+      },
+      {
+       "name": "Water System Control Facility",
+       "code": 85010
+      },
+      {
+       "name": "Water Tank",
+       "code": 85012
+      },
+      {
+       "name": "Water Tower",
+       "code": 85014
+      },
+      {
+       "name": "Water Treatment Facility",
+       "code": 85016
+      },
+
+      {
+       "name": "Information or Communication Facility",
+       "code": 88000
+      },
+      {
+       "name": "Communication Tower",
+       "code": 88002
+      },
+      {
+       "name": "Data Center",
+       "code": 88004
+      },
+      {
+       "name": "Internet DNS Location / Other Node",
+       "code": 88006
+      },
+      {
+       "name": "Internet Metro Area Exchange / Hub",
+       "code": 88008
+      },
+      {
+       "name": "Internet Service Provider",
+       "code": 88010
+      },
+      {
+       "name": "Radio / TV Broadcast Facility",
+       "code": 88012
+      },
+      {
+       "name": "Satellite Ground Station",
+       "code": 88014
+      },
+      {
+       "name": "Telephone Facility",
+       "code": 88016
+      },
+
+      {
+       "name": "Government or Military Facility",
+       "code": 83000
+      },
+      {
+       "name": "Bureau of Land Managment Facility",
+       "code": 83002
+      },
+      {
+       "name": "US Capitol",
+       "code": 83004
+      },
+      {
+       "name": "State Capitol",
+       "code": 83006
+      },
+      {
+       "name": "US Supreme Court",
+       "code": 83008
+      },
+      {
+       "name": "State Supreme Court",
+       "code": 83010
+      },
+      {
+       "name": "Court House",
+       "code": 83011
+      },
+      {
+       "name": "Critical Federal Contractor Facility",
+       "code": 83012
+      },
+      {
+       "name": "Department of Energy Facility",
+       "code": 83014
+      },
+      {
+       "name": "Department of State Facility",
+       "code": 83016
+      },
+      {
+       "name": "Deparment of Motor Vehicle Facility",
+       "code": 83018
+      },
+      {
+       "name": "DoD / Military Facility",
+       "code": 83020
+      },
+      {
+       "name": "Governor Residence",
+       "code": 83022
+      },
+      {
+       "name": "Intelligence Facility",
+       "code": 83024
+      },
+      {
+       "name": "Local Government Facility",
+       "code": 83026
+      },
+      {
+       "name": "NASA Facility",
+       "code": 83028
+      },
+      {
+       "name": "National Guard Armory / Base",
+       "code": 83030
+      },
+      {
+       "name": "National Park Service Facility",
+       "code": 83032
+      },
+      {
+       "name": "State Government Facility",
+       "code": 83034
+      },
+      {
+       "name": "Tribal Government Facility",
+       "code": 83036
+      },
+      {
+       "name": "US Forest Service Facility",
+       "code": 83038
+      },
+      {
+       "name": "US Government Facility",
+       "code": 83040
+      },
+      {
+       "name": "White House",
+       "code": 83042
+      },
+      {
+       "name": "Department of Public Works",
+       "code": 83043
+      },
+      {
+       "name": "City / Town Hall",
+       "code": 83044
+      }
+]
+
