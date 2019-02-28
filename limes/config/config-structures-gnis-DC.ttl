@@ -1,0 +1,54 @@
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix dc11:  <http://purl.org/dc/elements/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix www:   <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix limes: <http://limes.sf.net/ontology/> .
+
+limes:1551219898425  a           limes:LimesSpecs ;
+        limes:executionEngine    "default" ;
+        limes:executionPlanner   "default" ;
+        limes:executionRewriter  "default" ;
+        limes:granularity        "2" ;
+        limes:hasAcceptance      limes:1551219898425_acceptance ;
+        limes:hasMetric          limes:1551219898425_metric ;
+        limes:hasReview          limes:1551219898425_review ;
+        limes:hasSource          limes:1551219898425_source ;
+        limes:hasTarget          limes:1551219898425_target .
+
+limes:1551219898425_metric
+        a                 limes:Metric ;
+        limes:expression  "exactmatch(x.dc11:identifier,y.dc11:identifier)" .
+
+limes:1551219898425_acceptance
+        a                limes:Acceptance ;
+        limes:file       []  ;
+        limes:relation   <owl:sameAs> ;
+        limes:threshold  "0.9" .
+
+limes:1551219898425_review
+        a                limes:Review ;
+        limes:file       []  ;
+        limes:relation   <owl:sameAs> ;
+        limes:threshold  "0.7" .
+
+limes:1551219898425_source
+        a                  limes:SourceDataset ;
+        rdfs:label         "structures" ;
+        limes:endPoint     </home/kaos/kaos/tmp/zip/usgs_prototype2/limes/rdf2/structuresDC.nt> ;
+        limes:pageSize     "-1" ;
+        limes:property     "dbo:address" , "dbo:city" , "dc11:title" , "geo:lat" , "geo:long" , "dc11:identifier" ;
+        limes:restriction  "?x a www:Feature" ;
+        limes:type         "N3" ;
+        limes:variable     "?x" .
+
+limes:1551219898425_target
+        a                  limes:TargetDataset ;
+        rdfs:label         "gnis" ;
+        limes:endPoint     </home/kaos/kaos/tmp/zip/usgs_prototype2/limes/rdf2/gnisDC.nt> ;
+        limes:pageSize     "-1" ;
+        limes:property     "dc11:title" , "dbo:purpose" , "dbo:state" , "geo:long" , "dc11:identifier" , "geo:lat" ;
+        limes:restriction  "?y a www:Feature" ;
+        limes:type         "N3" ;
+        limes:variable     "?y" .

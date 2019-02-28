@@ -1,0 +1,55 @@
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix dc11:  <http://purl.org/dc/elements/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix www:   <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix limes: <http://limes.sf.net/ontology/> .
+
+limes:1551219224936_acceptance
+        a                limes:Acceptance ;
+        limes:file       []  ;
+        limes:relation   <owl:sameAs> ;
+        limes:threshold  "0.9" .
+
+limes:1551219224936_review
+        a                limes:Review ;
+        limes:file       []  ;
+        limes:relation   <owl:sameAs> ;
+        limes:threshold  "0.7" .
+
+limes:1551219224936  a           limes:LimesSpecs ;
+        limes:executionEngine    "default" ;
+        limes:executionPlanner   "default" ;
+        limes:executionRewriter  "default" ;
+        limes:granularity        "2" ;
+        limes:hasAcceptance      limes:1551219224936_acceptance ;
+        limes:hasMetric          limes:1551219224936_metric ;
+        limes:hasReview          limes:1551219224936_review ;
+        limes:hasSource          limes:1551219224936_source ;
+        limes:hasTarget          limes:1551219224936_target .
+
+limes:1551219224936_source
+        a                  limes:SourceDataset ;
+        rdfs:label         "geonames" ;
+        limes:endPoint     </home/kaos/kaos/tmp/zip/usgs_prototype2/limes/rdf2/geonamesDC.nt> ;
+        limes:pageSize     "-1" ;
+        limes:property     "dc11:title" , "geo:lat" , "geo:long" , "rdf:type" ;
+        limes:restriction  "?x a www:Feature" ;
+        limes:type         "N3" ;
+        limes:variable     "?x" .
+
+limes:1551219224936_target
+        a                  limes:TargetDataset ;
+        rdfs:label         "gnis" ;
+        limes:endPoint     </home/kaos/kaos/tmp/zip/usgs_prototype2/limes/rdf2/gnisDC.nt> ;
+        limes:pageSize     "-1" ;
+        limes:property     "rdf:type" , "geo:long" , "dbo:county" , "dc11:identifier" , "dbo:state" , "geo:lat" , "dc11:title" , "dbo:purpose" ;
+        limes:restriction  "?y a www:Feature" ;
+        limes:type         "N3" ;
+        limes:variable     "?y" .
+
+limes:1551219224936_metric
+        a                 limes:Metric ;
+        limes:expression  "and(cosine(x.dc11:title,y.dc11:title)|0.7,and(exactmatch(x.geo:long,y.geo:long)|0.7,exactmatch(x.geo:lat,y.geo:lat)|0.7)|0.7)" .
