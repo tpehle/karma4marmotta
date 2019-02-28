@@ -1,0 +1,468 @@
+<http://data.usgs.gov/structures/usgs_structures.59> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 30" .
+<http://data.usgs.gov/structures/usgs_structures.57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.58> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.4> <http://dbpedia.org/ontology/address> "550 Water Street Southwest" .
+<http://data.usgs.gov/structures/usgs_structures.42> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 11" .
+<http://data.usgs.gov/structures/usgs_structures.47> <http://purl.org/dc/elements/1.1/title> "Washington DC Veterans Affairs Medical Center" .
+<http://data.usgs.gov/structures/usgs_structures.39> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.1> <http://purl.org/dc/elements/1.1/identifier> "2333876" .
+<http://data.usgs.gov/structures/usgs_structures.10> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Fifth District Station" .
+<http://data.usgs.gov/structures/usgs_structures.38> <http://dbpedia.org/ontology/address> "111 Michigan Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.19> <http://dbpedia.org/ontology/address> "1310 Southern Avenue Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.37> <http://dbpedia.org/ontology/address> "2041 Georgia Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.39> <http://dbpedia.org/ontology/address> "1150 Varnum Street Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.7> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.919" .
+<http://data.usgs.gov/structures/usgs_structures.3> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.54> <http://purl.org/dc/elements/1.1/identifier> "2333862" .
+<http://data.usgs.gov/structures/usgs_structures.35> <http://purl.org/dc/elements/1.1/identifier> "2333870" .
+<http://data.usgs.gov/structures/usgs_structures.19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.31> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.869" .
+<http://data.usgs.gov/structures/usgs_structures.29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.67> <http://dbpedia.org/ontology/address> "1342 Florida Avenue Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.41> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.9> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.986" .
+<http://data.usgs.gov/structures/usgs_structures.50> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.15> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.876" .
+<http://data.usgs.gov/structures/usgs_structures.13> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.038" .
+<http://data.usgs.gov/structures/usgs_structures.38> <http://purl.org/dc/elements/1.1/title> "Children's National Medical Center" .
+<http://data.usgs.gov/structures/usgs_structures.28> <http://dbpedia.org/ontology/address> "500 E Street Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.5> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Headquarters" .
+<http://data.usgs.gov/structures/usgs_structures.17> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 8" .
+<http://data.usgs.gov/structures/usgs_structures.66> <http://dbpedia.org/ontology/address> "500 F Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.11> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Sixth District Substation" .
+<http://data.usgs.gov/structures/usgs_structures.67> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.901" .
+<http://data.usgs.gov/structures/usgs_structures.36> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.025" .
+<http://data.usgs.gov/structures/usgs_structures.36> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 4" .
+<http://data.usgs.gov/structures/usgs_structures.3> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.898" .
+<http://data.usgs.gov/structures/usgs_structures.5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.41> <http://purl.org/dc/elements/1.1/identifier> "2333867" .
+<http://data.usgs.gov/structures/usgs_structures.29> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.33> <http://purl.org/dc/elements/1.1/identifier> "2333871" .
+<http://data.usgs.gov/structures/usgs_structures.12> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.28> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.999" .
+<http://data.usgs.gov/structures/usgs_structures.22> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 6" .
+<http://data.usgs.gov/structures/usgs_structures.40> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.830" .
+<http://data.usgs.gov/structures/usgs_structures.24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.35> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 24" .
+<http://data.usgs.gov/structures/usgs_structures.23> <http://purl.org/dc/elements/1.1/identifier> "2333863" .
+<http://data.usgs.gov/structures/usgs_structures.52> <http://purl.org/dc/elements/1.1/identifier> "2335116" .
+<http://data.usgs.gov/structures/usgs_structures.60> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.17> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.982" .
+<http://data.usgs.gov/structures/usgs_structures.44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.55> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.895" .
+<http://data.usgs.gov/structures/usgs_structures.56> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.871" .
+<http://data.usgs.gov/structures/usgs_structures.31> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.5> <http://purl.org/dc/elements/1.1/identifier> "2493049" .
+<http://data.usgs.gov/structures/usgs_structures.27> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.930" .
+<http://data.usgs.gov/structures/usgs_structures.52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.40> <http://purl.org/dc/elements/1.1/identifier> "2333879" .
+<http://data.usgs.gov/structures/usgs_structures.62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.31> <http://purl.org/dc/elements/1.1/identifier> "2335145" .
+<http://data.usgs.gov/structures/usgs_structures.13> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.39> <http://purl.org/dc/elements/1.1/title> "Providence Hospital" .
+<http://data.usgs.gov/structures/usgs_structures.28> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.883" .
+<http://data.usgs.gov/structures/usgs_structures.57> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.32> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.012" .
+<http://data.usgs.gov/structures/usgs_structures.40> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.005" .
+<http://data.usgs.gov/structures/usgs_structures.19> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.4> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.873" .
+<http://data.usgs.gov/structures/usgs_structures.29> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.927" .
+<http://data.usgs.gov/structures/usgs_structures.7> <http://dbpedia.org/ontology/address> "2225 5th Street Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.4> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.40> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.37> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.020" .
+<http://data.usgs.gov/structures/usgs_structures.4> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company Fire Boat Dock" .
+<http://data.usgs.gov/structures/usgs_structures.14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.8> <http://purl.org/dc/elements/1.1/identifier> "2333865" .
+<http://data.usgs.gov/structures/usgs_structures.43> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.932" .
+<http://data.usgs.gov/structures/usgs_structures.26> <http://purl.org/dc/elements/1.1/identifier> "2335136" .
+<http://data.usgs.gov/structures/usgs_structures.47> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.010" .
+<http://data.usgs.gov/structures/usgs_structures.16> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.932" .
+<http://data.usgs.gov/structures/usgs_structures.41> <http://dbpedia.org/ontology/address> "1763 Lanier Place Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.49> <http://purl.org/dc/elements/1.1/identifier> "530954" .
+<http://data.usgs.gov/structures/usgs_structures.30> <http://dbpedia.org/ontology/address> "1901 E Street Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.16> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 17" .
+<http://data.usgs.gov/structures/usgs_structures.25> <http://dbpedia.org/ontology/address> "4300 Wisconsin Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.9> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.864" .
+<http://data.usgs.gov/structures/usgs_structures.30> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.882" .
+<http://data.usgs.gov/structures/usgs_structures.28> <http://purl.org/dc/elements/1.1/identifier> "2335139" .
+<http://data.usgs.gov/structures/usgs_structures.47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.66> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.019" .
+<http://data.usgs.gov/structures/usgs_structures.11> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.968" .
+<http://data.usgs.gov/structures/usgs_structures.61> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.11> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.45> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.020" .
+<http://data.usgs.gov/structures/usgs_structures.12> <http://purl.org/dc/elements/1.1/identifier> "528845" .
+<http://data.usgs.gov/structures/usgs_structures.51> <http://dbpedia.org/ontology/address> "2425 Irving Street Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.52> <http://dbpedia.org/ontology/address> "2300 I Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.48> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.36> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.923" .
+<http://data.usgs.gov/structures/usgs_structures.52> <http://purl.org/dc/elements/1.1/title> "George Washington University Medical Center" .
+<http://data.usgs.gov/structures/usgs_structures.14> <http://purl.org/dc/elements/1.1/identifier> "2333864" .
+<http://data.usgs.gov/structures/usgs_structures.33> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 25" .
+<http://data.usgs.gov/structures/usgs_structures.64> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.936" .
+<http://data.usgs.gov/structures/usgs_structures.55> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.010" .
+<http://data.usgs.gov/structures/usgs_structures.18> <http://dbpedia.org/ontology/address> "1731 Bunker Hill Road Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.8> <http://dbpedia.org/ontology/address> "414 8th Street Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.40> <http://dbpedia.org/ontology/address> "101 Atlantic Street Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.59> <http://dbpedia.org/ontology/address> "50 49th Street Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.55> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 3" .
+<http://data.usgs.gov/structures/usgs_structures.23> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 14" .
+<http://data.usgs.gov/structures/usgs_structures.16> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.989" .
+<http://data.usgs.gov/structures/usgs_structures.7> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.999" .
+<http://data.usgs.gov/structures/usgs_structures.2> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.074" .
+<http://data.usgs.gov/structures/usgs_structures.12> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.936" .
+<http://data.usgs.gov/structures/usgs_structures.20> <http://dbpedia.org/ontology/address> "900 23rd Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.2> <http://purl.org/dc/elements/1.1/identifier> "2335138" .
+<http://data.usgs.gov/structures/usgs_structures.11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.48> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 26" .
+<http://data.usgs.gov/structures/usgs_structures.49> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.65> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.049" .
+<http://data.usgs.gov/structures/usgs_structures.23> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.008" .
+<http://data.usgs.gov/structures/usgs_structures.57> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.943" .
+<http://data.usgs.gov/structures/usgs_structures.33> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.7> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 12" .
+<http://data.usgs.gov/structures/usgs_structures.14> <http://dbpedia.org/ontology/address> "1018 13th Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.10> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.973" .
+<http://data.usgs.gov/structures/usgs_structures.34> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.911" .
+<http://data.usgs.gov/structures/usgs_structures.7> <http://purl.org/dc/elements/1.1/identifier> "2333861" .
+<http://data.usgs.gov/structures/usgs_structures.9> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 15" .
+<http://data.usgs.gov/structures/usgs_structures.29> <http://dbpedia.org/ontology/address> "1700 Rhode Island Avenue Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.31> <http://dbpedia.org/ontology/address> "3244 Pennsylvania Avenue Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.38> <http://purl.org/dc/elements/1.1/identifier> "531322" .
+<http://data.usgs.gov/structures/usgs_structures.36> <http://purl.org/dc/elements/1.1/identifier> "2333855" .
+<http://data.usgs.gov/structures/usgs_structures.59> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.933" .
+<http://data.usgs.gov/structures/usgs_structures.37> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.20> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.48> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.924" .
+<http://data.usgs.gov/structures/usgs_structures.15> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.012" .
+<http://data.usgs.gov/structures/usgs_structures.55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.27> <http://purl.org/dc/elements/1.1/identifier> "530090" .
+<http://data.usgs.gov/structures/usgs_structures.65> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.905" .
+<http://data.usgs.gov/structures/usgs_structures.1> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.093" .
+<http://data.usgs.gov/structures/usgs_structures.9> <http://purl.org/dc/elements/1.1/identifier> "2333849" .
+<http://data.usgs.gov/structures/usgs_structures.33> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.843" .
+<http://data.usgs.gov/structures/usgs_structures.55> <http://dbpedia.org/ontology/address> "439 New Jersey Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.1> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.51> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 32" .
+<http://data.usgs.gov/structures/usgs_structures.61> <http://purl.org/dc/elements/1.1/identifier> "531240" .
+<http://data.usgs.gov/structures/usgs_structures.43> <http://purl.org/dc/elements/1.1/identifier> "2780844" .
+<http://data.usgs.gov/structures/usgs_structures.34> <http://dbpedia.org/ontology/address> "3800 Reservoir Road Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.35> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.952" .
+<http://data.usgs.gov/structures/usgs_structures.63> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 5" .
+<http://data.usgs.gov/structures/usgs_structures.6> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 7" .
+<http://data.usgs.gov/structures/usgs_structures.60> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Seventh District Station" .
+<http://data.usgs.gov/structures/usgs_structures.17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.52> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.26> <http://dbpedia.org/ontology/address> "6001 Georgia Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.55> <http://purl.org/dc/elements/1.1/identifier> "2333854" .
+<http://data.usgs.gov/structures/usgs_structures.63> <http://purl.org/dc/elements/1.1/identifier> "2333856" .
+<http://data.usgs.gov/structures/usgs_structures.47> <http://dbpedia.org/ontology/address> "50 Irving Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.12> <http://dbpedia.org/ontology/address> "5255 Loughboro Road Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.38> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.927" .
+<http://data.usgs.gov/structures/usgs_structures.65> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.35> <http://dbpedia.org/ontology/address> "5101 Georgia Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.24> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.25> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.944" .
+<http://data.usgs.gov/structures/usgs_structures.2> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.29> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.980" .
+<http://data.usgs.gov/structures/usgs_structures.14> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.029" .
+<http://data.usgs.gov/structures/usgs_structures.52> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.050" .
+<http://data.usgs.gov/structures/usgs_structures.64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.49> <http://dbpedia.org/ontology/address> "4601 Martin Luther King Junior Avenue Southwest" .
+<http://data.usgs.gov/structures/usgs_structures.54> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.019" .
+<http://data.usgs.gov/structures/usgs_structures.53> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.38> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.42> <http://dbpedia.org/ontology/address> "3420 14th Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.53> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 22" .
+<http://data.usgs.gov/structures/usgs_structures.30> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.975" .
+<http://data.usgs.gov/structures/usgs_structures.21> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.1> <http://dbpedia.org/ontology/address> "4811 MacArthur Boulevard Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.64> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 28" .
+<http://data.usgs.gov/structures/usgs_structures.36> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.50> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.848" .
+<http://data.usgs.gov/structures/usgs_structures.13> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Third District Station" .
+<http://data.usgs.gov/structures/usgs_structures.43> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Fourth District Substation" .
+<http://data.usgs.gov/structures/usgs_structures.34> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.075" .
+<http://data.usgs.gov/structures/usgs_structures.13> <http://dbpedia.org/ontology/address> "1620 V Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.24> <http://dbpedia.org/ontology/address> "700 Constitution Avenue Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.46> <http://purl.org/dc/elements/1.1/identifier> "530936" .
+<http://data.usgs.gov/structures/usgs_structures.49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.49> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.013" .
+<http://data.usgs.gov/structures/usgs_structures.67> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 10" .
+<http://data.usgs.gov/structures/usgs_structures.23> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.39> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.991" .
+<http://data.usgs.gov/structures/usgs_structures.67> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.986" .
+<http://data.usgs.gov/structures/usgs_structures.66> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.21> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.917" .
+<http://data.usgs.gov/structures/usgs_structures.26> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.963" .
+<http://data.usgs.gov/structures/usgs_structures.11> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.872" .
+<http://data.usgs.gov/structures/usgs_structures.27> <http://purl.org/dc/elements/1.1/title> "MedStar National Rehabilitation Hospital" .
+<http://data.usgs.gov/structures/usgs_structures.67> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.25> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.078" .
+<http://data.usgs.gov/structures/usgs_structures.65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.57> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 27" .
+<http://data.usgs.gov/structures/usgs_structures.21> <http://purl.org/dc/elements/1.1/identifier> "2333859" .
+<http://data.usgs.gov/structures/usgs_structures.34> <http://purl.org/dc/elements/1.1/identifier> "531180" .
+<http://data.usgs.gov/structures/usgs_structures.33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.31> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Family Liaison Specialists Unit" .
+<http://data.usgs.gov/structures/usgs_structures.47> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.929" .
+<http://data.usgs.gov/structures/usgs_structures.51> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.65> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 1" .
+<http://data.usgs.gov/structures/usgs_structures.50> <http://purl.org/dc/elements/1.1/identifier> "531464" .
+<http://data.usgs.gov/structures/usgs_structures.53> <http://dbpedia.org/ontology/address> "5760 Georgia Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.17> <http://dbpedia.org/ontology/address> "1520 C Street Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.46> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.015" .
+<http://data.usgs.gov/structures/usgs_structures.22> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.22> <http://dbpedia.org/ontology/address> "1300 New Jersey Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.15> <http://dbpedia.org/ontology/address> "101 M Street Southwest" .
+<http://data.usgs.gov/structures/usgs_structures.3> <http://dbpedia.org/ontology/address> "2119 G Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.50> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.987" .
+<http://data.usgs.gov/structures/usgs_structures.4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.6> <http://dbpedia.org/ontology/address> "1101 Half Street Southwest" .
+<http://data.usgs.gov/structures/usgs_structures.61> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.943" .
+<http://data.usgs.gov/structures/usgs_structures.20> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.901" .
+<http://data.usgs.gov/structures/usgs_structures.21> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 9" .
+<http://data.usgs.gov/structures/usgs_structures.48> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.986" .
+<http://data.usgs.gov/structures/usgs_structures.53> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.028" .
+<http://data.usgs.gov/structures/usgs_structures.66> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.897" .
+<http://data.usgs.gov/structures/usgs_structures.54> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.58> <http://dbpedia.org/ontology/address> "100 42nd Street Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.10> <http://dbpedia.org/ontology/address> "1805 Bladensburg Road Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.25> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 20" .
+<http://data.usgs.gov/structures/usgs_structures.50> <http://dbpedia.org/ontology/address> "1100 Alabama Avenue Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.53> <http://purl.org/dc/elements/1.1/identifier> "2333868" .
+<http://data.usgs.gov/structures/usgs_structures.62> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.954" .
+<http://data.usgs.gov/structures/usgs_structures.45> <http://dbpedia.org/ontology/address> "550 Water Street Southwest" .
+<http://data.usgs.gov/structures/usgs_structures.22> <http://purl.org/dc/elements/1.1/identifier> "2333857" .
+<http://data.usgs.gov/structures/usgs_structures.46> <http://dbpedia.org/ontology/address> "110 Irving Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.16> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.37> <http://purl.org/dc/elements/1.1/title> "Howard University Hospital" .
+<http://data.usgs.gov/structures/usgs_structures.54> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 13" .
+<http://data.usgs.gov/structures/usgs_structures.9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.49> <http://purl.org/dc/elements/1.1/title> "Bridgepoint Hospital - Hadley Campus" .
+<http://data.usgs.gov/structures/usgs_structures.61> <http://dbpedia.org/ontology/address> "4228 Wisconsin Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.14> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 16" .
+<http://data.usgs.gov/structures/usgs_structures.30> <http://purl.org/dc/elements/1.1/title> "Correctional Treatment Facility" .
+<http://data.usgs.gov/structures/usgs_structures.47> <http://purl.org/dc/elements/1.1/identifier> "529045" .
+<http://data.usgs.gov/structures/usgs_structures.30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.3> <http://purl.org/dc/elements/1.1/identifier> "2333869" .
+<http://data.usgs.gov/structures/usgs_structures.66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.2> <http://dbpedia.org/ontology/address> "3320 Idaho Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.64> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.18> <http://purl.org/dc/elements/1.1/identifier> "1984543" .
+<http://data.usgs.gov/structures/usgs_structures.59> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.890" .
+<http://data.usgs.gov/structures/usgs_structures.4> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.020" .
+<http://data.usgs.gov/structures/usgs_structures.18> <http://purl.org/dc/elements/1.1/title> "The HSC Pediatric Center" .
+<http://data.usgs.gov/structures/usgs_structures.48> <http://purl.org/dc/elements/1.1/identifier> "2333872" .
+<http://data.usgs.gov/structures/usgs_structures.44> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.940" .
+<http://data.usgs.gov/structures/usgs_structures.37> <http://purl.org/dc/elements/1.1/identifier> "1984545" .
+<http://data.usgs.gov/structures/usgs_structures.52> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.900" .
+<http://data.usgs.gov/structures/usgs_structures.1> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.915" .
+<http://data.usgs.gov/structures/usgs_structures.24> <http://purl.org/dc/elements/1.1/identifier> "529408" .
+<http://data.usgs.gov/structures/usgs_structures.19> <http://purl.org/dc/elements/1.1/title> "United Medical Center" .
+<http://data.usgs.gov/structures/usgs_structures.64> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.059" .
+<http://data.usgs.gov/structures/usgs_structures.66> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 2" .
+<http://data.usgs.gov/structures/usgs_structures.58> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.942" .
+<http://data.usgs.gov/structures/usgs_structures.26> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Fourth District Station" .
+<http://data.usgs.gov/structures/usgs_structures.10> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.915" .
+<http://data.usgs.gov/structures/usgs_structures.63> <http://dbpedia.org/ontology/address> "3412 Dent Place Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.35> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.42> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.033" .
+<http://data.usgs.gov/structures/usgs_structures.56> <http://dbpedia.org/ontology/address> "2813 Pennsylvania Avenue Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.39> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.943" .
+<http://data.usgs.gov/structures/usgs_structures.61> <http://purl.org/dc/elements/1.1/title> "Psychiatric Institute of Washington" .
+<http://data.usgs.gov/structures/usgs_structures.7> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.5> <http://dbpedia.org/ontology/address> "300 Indiana Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.43> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.025" .
+<http://data.usgs.gov/structures/usgs_structures.60> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.853" .
+<http://data.usgs.gov/structures/usgs_structures.27> <http://dbpedia.org/ontology/address> "102 Irving Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.62> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.069" .
+<http://data.usgs.gov/structures/usgs_structures.6> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.64> <http://purl.org/dc/elements/1.1/identifier> "2333874" .
+<http://data.usgs.gov/structures/usgs_structures.44> <http://purl.org/dc/elements/1.1/identifier> "2493090" .
+<http://data.usgs.gov/structures/usgs_structures.65> <http://dbpedia.org/ontology/address> "2225 M Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.49> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.825" .
+<http://data.usgs.gov/structures/usgs_structures.55> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.44> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Patrol Services and School Security Bureau" .
+<http://data.usgs.gov/structures/usgs_structures.39> <http://purl.org/dc/elements/1.1/identifier> "530562" .
+<http://data.usgs.gov/structures/usgs_structures.26> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.027" .
+<http://data.usgs.gov/structures/usgs_structures.4> <http://purl.org/dc/elements/1.1/identifier> "2333880" .
+<http://data.usgs.gov/structures/usgs_structures.22> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.016" .
+<http://data.usgs.gov/structures/usgs_structures.10> <http://purl.org/dc/elements/1.1/identifier> "2335135" .
+<http://data.usgs.gov/structures/usgs_structures.17> <http://purl.org/dc/elements/1.1/identifier> "2333858" .
+<http://data.usgs.gov/structures/usgs_structures.34> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.25> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.57> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.901" .
+<http://data.usgs.gov/structures/usgs_structures.9> <http://dbpedia.org/ontology/address> "2101 14th Street Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.63> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.21> <http://dbpedia.org/ontology/address> "1617 U Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.5> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.016" .
+<http://data.usgs.gov/structures/usgs_structures.50> <http://purl.org/dc/elements/1.1/title> "Saint Elizabeth's Hospital" .
+<http://data.usgs.gov/structures/usgs_structures.66> <http://purl.org/dc/elements/1.1/identifier> "2333853" .
+<http://data.usgs.gov/structures/usgs_structures.34> <http://purl.org/dc/elements/1.1/title> "MedStar Georgetown University Hospital" .
+<http://data.usgs.gov/structures/usgs_structures.62> <http://purl.org/dc/elements/1.1/identifier> "2333875" .
+<http://data.usgs.gov/structures/usgs_structures.1> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 29" .
+<http://data.usgs.gov/structures/usgs_structures.40> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 33" .
+<http://data.usgs.gov/structures/usgs_structures.51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.44> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.023" .
+<http://data.usgs.gov/structures/usgs_structures.6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.27> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.12> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.109" .
+<http://data.usgs.gov/structures/usgs_structures.51> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.971" .
+<http://data.usgs.gov/structures/usgs_structures.19> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.836" .
+<http://data.usgs.gov/structures/usgs_structures.16> <http://dbpedia.org/ontology/address> "1227 Monroe Street Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.26> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.24> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.892" .
+<http://data.usgs.gov/structures/usgs_structures.10> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.44> <http://dbpedia.org/ontology/address> "801 Shepherd Street Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.20> <http://purl.org/dc/elements/1.1/title> "George Washington University Hospital" .
+<http://data.usgs.gov/structures/usgs_structures.43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.20> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.050" .
+<http://data.usgs.gov/structures/usgs_structures.65> <http://purl.org/dc/elements/1.1/identifier> "2333852" .
+<http://data.usgs.gov/structures/usgs_structures.24> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.995" .
+<http://data.usgs.gov/structures/usgs_structures.58> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Sixth District Station" .
+<http://data.usgs.gov/structures/usgs_structures.61> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.077" .
+<http://data.usgs.gov/structures/usgs_structures.51> <http://purl.org/dc/elements/1.1/identifier> "2333878" .
+<http://data.usgs.gov/structures/usgs_structures.42> <http://purl.org/dc/elements/1.1/identifier> "2333850" .
+<http://data.usgs.gov/structures/usgs_structures.62> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.36> <http://dbpedia.org/ontology/address> "2531 Sherman Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.56> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.41> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 21" .
+<http://data.usgs.gov/structures/usgs_structures.63> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.911" .
+<http://data.usgs.gov/structures/usgs_structures.3> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 23" .
+<http://data.usgs.gov/structures/usgs_structures.36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.5> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.9> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.18> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.58> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.892" .
+<http://data.usgs.gov/structures/usgs_structures.2> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.934" .
+<http://data.usgs.gov/structures/usgs_structures.28> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department First District Substation" .
+<http://data.usgs.gov/structures/usgs_structures.45> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Harbor Patrol" .
+<http://data.usgs.gov/structures/usgs_structures.32> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.843" .
+<http://data.usgs.gov/structures/usgs_structures.60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.20> <http://purl.org/dc/elements/1.1/identifier> "531751" .
+<http://data.usgs.gov/structures/usgs_structures.43> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.63> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.068" .
+<http://data.usgs.gov/structures/usgs_structures.31> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.959" .
+<http://data.usgs.gov/structures/usgs_structures.29> <http://purl.org/dc/elements/1.1/identifier> "2335141" .
+<http://data.usgs.gov/structures/usgs_structures.43> <http://dbpedia.org/ontology/address> "750 Park Road Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.41> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.042" .
+<http://data.usgs.gov/structures/usgs_structures.14> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.23> <http://dbpedia.org/ontology/address> "4801 North Capitol Street Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.16> <http://purl.org/dc/elements/1.1/identifier> "2333881" .
+<http://data.usgs.gov/structures/usgs_structures.27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.24> <http://purl.org/dc/elements/1.1/title> "Bridgepoint Hospital - Capitol Hill Campus" .
+<http://data.usgs.gov/structures/usgs_structures.27> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.013" .
+<http://data.usgs.gov/structures/usgs_structures.57> <http://dbpedia.org/ontology/address> "4201 Minnesota Avenue Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.47> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.45> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.874" .
+<http://data.usgs.gov/structures/usgs_structures.58> <http://purl.org/dc/elements/1.1/identifier> "2335134" .
+<http://data.usgs.gov/structures/usgs_structures.15> <http://purl.org/dc/elements/1.1/identifier> "2335140" .
+<http://data.usgs.gov/structures/usgs_structures.46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.11> <http://purl.org/dc/elements/1.1/identifier> "2335133" .
+<http://data.usgs.gov/structures/usgs_structures.3> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.047" .
+<http://data.usgs.gov/structures/usgs_structures.45> <http://purl.org/dc/elements/1.1/identifier> "2493070" .
+<http://data.usgs.gov/structures/usgs_structures.37> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.917" .
+<http://data.usgs.gov/structures/usgs_structures.30> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.21> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.037" .
+<http://data.usgs.gov/structures/usgs_structures.30> <http://purl.org/dc/elements/1.1/identifier> "2780843" .
+<http://data.usgs.gov/structures/usgs_structures.28> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.46> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.54> <http://dbpedia.org/ontology/address> "450 6th Street Southwest" .
+<http://data.usgs.gov/structures/usgs_structures.41> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.924" .
+<http://data.usgs.gov/structures/usgs_structures.67> <http://purl.org/dc/elements/1.1/identifier> "2333860" .
+<http://data.usgs.gov/structures/usgs_structures.7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.51> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.852" .
+<http://data.usgs.gov/structures/usgs_structures.11> <http://dbpedia.org/ontology/address> "2701 Pennsylvania Avenue Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.60> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.969" .
+<http://data.usgs.gov/structures/usgs_structures.42> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.8> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.883" .
+<http://data.usgs.gov/structures/usgs_structures.17> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.885" .
+<http://data.usgs.gov/structures/usgs_structures.62> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 31" .
+<http://data.usgs.gov/structures/usgs_structures.19> <http://purl.org/dc/elements/1.1/identifier> "530170" .
+<http://data.usgs.gov/structures/usgs_structures.46> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.929" .
+<http://data.usgs.gov/structures/usgs_structures.54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.60> <http://purl.org/dc/elements/1.1/identifier> "2335132" .
+<http://data.usgs.gov/structures/usgs_structures.56> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 19" .
+<http://data.usgs.gov/structures/usgs_structures.35> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.027" .
+<http://data.usgs.gov/structures/usgs_structures.18> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.941" .
+<http://data.usgs.gov/structures/usgs_structures.6> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.877" .
+<http://data.usgs.gov/structures/usgs_structures.12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.62> <http://dbpedia.org/ontology/address> "4930 Connecticut Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.32> <http://purl.org/dc/elements/1.1/title> "Bolling AFB Fire Station" .
+<http://data.usgs.gov/structures/usgs_structures.23> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.948" .
+<http://data.usgs.gov/structures/usgs_structures.56> <http://purl.org/dc/elements/1.1/identifier> "2333866" .
+<http://data.usgs.gov/structures/usgs_structures.61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.53> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.960" .
+<http://data.usgs.gov/structures/usgs_structures.42> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.932" .
+<http://data.usgs.gov/structures/usgs_structures.60> <http://dbpedia.org/ontology/address> "2455 Alabama Avenue Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.59> <http://purl.org/dc/elements/1.1/identifier> "2333877" .
+<http://data.usgs.gov/structures/usgs_structures.17> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.14> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.903" .
+<http://data.usgs.gov/structures/usgs_structures.33> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.000" .
+<http://data.usgs.gov/structures/usgs_structures.1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.54> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.883" .
+<http://data.usgs.gov/structures/usgs_structures.33> <http://dbpedia.org/ontology/address> "3203 Martin Luther King Avenue Southeast" .
+<http://data.usgs.gov/structures/usgs_structures.8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.59> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.64> <http://dbpedia.org/ontology/address> "3522 Connecticut Avenue Northwest" .
+<http://data.usgs.gov/structures/usgs_structures.13> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.917" .
+<http://data.usgs.gov/structures/usgs_structures.56> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.966" .
+<http://data.usgs.gov/structures/usgs_structures.8> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.38> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.014" .
+<http://data.usgs.gov/structures/usgs_structures.8> <http://purl.org/dc/elements/1.1/title> "District of Columbia Fire and Emergency Medical Services Engine Company 18" .
+<http://data.usgs.gov/structures/usgs_structures.13> <http://purl.org/dc/elements/1.1/identifier> "2335137" .
+<http://data.usgs.gov/structures/usgs_structures.32> <http://dbpedia.org/ontology/city> "Bolling AFB" .
+<http://data.usgs.gov/structures/usgs_structures.6> <http://purl.org/dc/elements/1.1/identifier> "2333847" .
+<http://data.usgs.gov/structures/usgs_structures.25> <http://purl.org/dc/elements/1.1/identifier> "2333882" .
+<http://data.usgs.gov/structures/usgs_structures.45> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.22> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.907" .
+<http://data.usgs.gov/structures/usgs_structures.19> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.984" .
+<http://data.usgs.gov/structures/usgs_structures.12> <http://purl.org/dc/elements/1.1/title> "Sibley Memorial Hospital" .
+<http://data.usgs.gov/structures/usgs_structures.46> <http://purl.org/dc/elements/1.1/title> "MedStar Washington Hospital Center" .
+<http://data.usgs.gov/structures/usgs_structures.45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.2> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department Second District Station" .
+<http://data.usgs.gov/structures/usgs_structures.29> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department - Youth Investigation Services" .
+<http://data.usgs.gov/structures/usgs_structures.53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.15> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.6> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-77.010" .
+<http://data.usgs.gov/structures/usgs_structures.44> <http://dbpedia.org/ontology/city> "Washington" .
+<http://data.usgs.gov/structures/usgs_structures.57> <http://purl.org/dc/elements/1.1/identifier> "2333873" .
+<http://data.usgs.gov/structures/usgs_structures.21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#Feature> .
+<http://data.usgs.gov/structures/usgs_structures.48> <http://dbpedia.org/ontology/address> "1340 Rhode Island Avenue Northeast" .
+<http://data.usgs.gov/structures/usgs_structures.8> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.994" .
+<http://data.usgs.gov/structures/usgs_structures.15> <http://purl.org/dc/elements/1.1/title> "Metropolitan Police Department First District Station" .
+<http://data.usgs.gov/structures/usgs_structures.18> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-76.981" .
+<http://data.usgs.gov/structures/usgs_structures.5> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "38.894" .
+
