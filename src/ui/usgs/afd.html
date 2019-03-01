@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>USGS Advanced Feature Descriptions Map</title>
+
+  <!-- top menu bar css + js -->
+  <link rel="stylesheet" href="cssmenu2/menu_styles.css">
+  <script src="jquery/jquery-latest.min.js" type="text/javascript"></script>
+  <script src="cssmenu2/menu_script.js"></script>
+
+  <!-- leaflet map css -->
+  <link rel="stylesheet" href="leaflet/leaflet.css" />	
+  <style>
+	#mapid { height: 100%; }
+
+	body, html {
+  	  height: 100%;
+	}
+  </style>
+
+  <!-- leaflet map + wfs-t plugin js -->
+  <script src="leaflet/leaflet.js"></script>
+  <script src="leaflet-wfts/leaflet-wfst.min.js"></script>
+  
+  <!-- afd js  -->
+  <script src="afd/afd-wfs.js"></script>
+  <script src="afd/afd-rdf.js"></script>
+
+  <!-- afd tabs (jquery-ui) -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#afd-tabs" ).tabs({
+      beforeLoad: function( event, ui ) {
+        ui.jqXHR.fail(function() {
+          ui.panel.html("Couldn't load data into this tab.");
+        });
+      }
+    });
+  } );
+  </script>
+  
+
+</head>
+<body>
+
+  <!-- top menu -->
+  <div id='cssmenu' style="z-index: 2">
+	<ul>
+	   <li><a href='#' onClick='resetMap();'>Reset Extent</a></li>
+
+	   <li class='active'><a href='#'>Layers</a>
+	      <ul>
+		 <li><a href='#' onClick="loadWfsPtLayer('GNIS_DC_Features_20180401');">USGS GNIS - DC</a></li>
+		 <li><a href='#' onClick="loadWfsPtLayer('usgs_structures');">USGS Structures - DC</a></li>
+		 <li><a href='#' onClick="loadWfsLineLayer('Trans_RoadSegment');">USGS NTD Roads - DC</a></li>
+		 <li><a href='#' onClick="loadWfsLineLayer('Trans_RailFeature');">USGS NTD Rails - DC</a></li>
+ 		 <li><a href='#' onClick="loadWfsLineLayer('Trans_TrailSegment');">USGS NTD Trails - DC</a></li>
+ 		 <li><a href='#' onClick="loadWfsPtLayer('counties_list_md');">Census Bureau - Counties List - MD</a></li>
+ 		 <li><a href='#' onClick="loadWfsPtLayer('counties_list_va');">Census Bureau - Counties List - VA</a></li>	 
+		 <li><a href='#' onClick="loadWfsPtLayer('gaz_zcta_national');">Census Bureau - Zip Codes - US</a></li>
+	      </ul>
+	   </li>
+	   
+	   <!--<li><a href='#'>WFS Tests</a>
+	      <ul>
+		<li><a href='#' onClick="loadWfsPtLayer('GNIS_DC_Features_20180401');">Test WFS Points</a></li>
+	   	<li><a href='#' onClick="loadWfsLineLayer('usgs_ntd_trans_road');">Test WFS Lines</a></li>
+		<li><a href='#' onClick="loadWfsPolyLayer('');">Test WFS Polygons</a></li>
+	      </ul>
+	   </li>
+	   <li><a href='#' onClick="testAddTab();">Test Add Tab</a></li>-->
+	</ul>
+	
+  </div>
+
+  <div style="clear: both;"></div>
+
+  <div id="maincontainer" style="width: 100%; height: 100%;">
+     <!-- leaflet map -->
+     <div id="mapid" style="z-index: 1; width: 70%; float: left; border-style: solid; border-width: 1px; margin-top: 9px; margin-right: 5px;"></div>
+
+     <!-- advanced feature description tabs -->
+     <div class="widget" style="height: 95%; font-family: Arial, Helvetica, sans-serif; margin-top: 5px;">
+        <fieldset>
+        <legend>Advanced Feature Descriptions</legend>
+        <div id="afd-tabs" style="z-index: 1; width: 100%; float: left;" >
+	    <ul id="afd-tabs-list">
+	       <!-- list is populated programmatically -->
+	    </ul>
+        </div>
+	<!-- tab div content populated programmatically -->
+     </div>
+  </div>
+  
+  <!-- initialize leaflet map -->
+  <script>
+
+
+    // reset map to initial extent and zoom
+    function resetMap() {
+	map.setView([38.8895, -77.0353], 13);
+    }
+
+    // init map with open street map as base map over DC area
+    var map = L.map('mapid').setView([38.8895, -77.0353], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // set height of afd tabs to height of map
+    $('#afd-tabs').height(
+	$('#mapid').height() - /* minus map offset */ 33	
+    );
+    
+  </script>
+
+</body>
+
+</html>
+

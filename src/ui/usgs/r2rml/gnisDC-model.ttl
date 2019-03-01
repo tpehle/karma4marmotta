@@ -1,0 +1,1227 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wgs84pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix qudt: <http://qudt.org/1.1/schema/qudt#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix mrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix gnis: <http://data.usgs.gov/lod/gnis/ontology/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cidoccrm: <http://purl.org/NET/cidoc-crm/core#> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix d0: <http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1cvn1pbrvx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "usgs_gnis" ;
+	km-dev:modelPublicationTime "1545888116608"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:COUNTY_NAM\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:FEATURE_ID\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:STATE_ALPH\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"gml:id\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:PRIM_LAT_D\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:FEATURE_CL\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:the_geom\"},{\"columnName\":\"gml:Point\"},{\"columnName\":\"gml:pos\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:PRIM_LON_1\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:FEATURE_NA\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:ELEV_IN_M\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:COUNTY_NAM\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:FEATURE_ID\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:STATE_ALPH\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"gml:id\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:PRIM_LAT_D\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"feature_uri\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:FEATURE_CL\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:the_geom\"},{\"columnName\":\"gml:Point\"},{\"columnName\":\"ns:wkt\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:PRIM_LON_1\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:FEATURE_NA\"}],[{\"columnName\":\"wfs:FeatureCollection\"},{\"columnName\":\"wfs:member\"},{\"columnName\":\"usgsns:GNIS_DC_Features_20180401\"},{\"columnName\":\"usgsns:ELEV_IN_M\"}]]" ;
+	km-dev:hasModelLabel "usgs_gnis" ;
+	km-dev:hasBaseURI "http://data.usgs.gov/gnis/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": true,
+                    \"baseURI\": \"http://data.usgs.gov/gnis/\",
+                    \"hasPrefix\": false,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SetWorksheetPropertiesCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"properties\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"graphLabel\": \"\",
+                    \"hasBaseURI\": false,
+                    \"prefix\": \"tnm-gnis\",
+                    \"hasPrefix\": true,
+                    \"hasServiceProperties\": false
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:the_geom\"},
+                    {\"columnName\": \"gml:Point\"},
+                    {\"columnName\": \"gml:pos\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"ns:wkt\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return get_wkt_pt(getValue(\\\"gml:pos\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:the_geom\\\"},{\\\"columnName\\\":\\\"gml:Point\\\"},{\\\"columnName\\\":\\\"gml:pos\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:the_geom\\\"},{\\\"columnName\\\":\\\"gml:Point\\\"},{\\\"columnName\\\":\\\"ns:wkt\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [{
+                    \"visible\": true,
+                    \"children\": \"[{\\\"visible\\\":false,\\\"name\\\":\\\"numberMatched\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"numberMatched\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"numberReturned\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"numberReturned\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"timeStamp\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"timeStamp\\\"}]},{\\\"visible\\\":true,\\\"children\\\":\\\"[{\\\\\\\"visible\\\\\\\":true,\\\\\\\"children\\\\\\\":\\\\\\\"[{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"gml:id\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"gml:id\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:COUNTY_NAM\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:COUNTY_NAM\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:COUNTY_NUM\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:COUNTY_NUM\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:DATE_CREAT\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:DATE_CREAT\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:DATE_EDITE\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:DATE_EDITE\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:ELEV_IN_M\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:ELEV_IN_M\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:FEATURE_CL\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:FEATURE_CL\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:FEATURE_ID\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:FEATURE_ID\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:FEATURE_NA\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:FEATURE_NA\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:MAP_NAME\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:MAP_NAME\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIMARY_LA\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIMARY_LA\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIM_LAT_D\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIM_LAT_D\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIM_LONG_\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIM_LONG_\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIM_LON_1\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:PRIM_LON_1\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_LAT\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_LAT\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_LON\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_LON\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_L_1\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_L_1\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_L_2\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:SOURCE_L_2\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:STATE_ALPH\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:STATE_ALPH\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:STATE_NUME\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:STATE_NUME\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\"children\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"children\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"gml:pos\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:the_geom\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"gml:Point\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"gml:pos\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"srsDimension\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:the_geom\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"gml:Point\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"srsDimension\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"visible\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":true,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"srsName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:the_geom\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"gml:Point\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"srsName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]}]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"gml:Point\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"usgsns:the_geom\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"gml:Point\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"}]}]\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"name\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:the_geom\\\\\\\\\\\\\\\",\\\\\\\\\\\\\\\"id\\\\\\\\\\\\\\\":[{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:FeatureCollection\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"wfs:member\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\\\\\\\\\"},{\\\\\\\\\\\\\\\"columnName\\\\\\\\\\\\\\\":\\\\\\\\\\\\\\\"usgsns:the_geom\\\\\\\\\\\\\\\"}]}]\\\\\\\",\\\\\\\"name\\\\\\\":\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\",\\\\\\\"id\\\\\\\":[{\\\\\\\"columnName\\\\\\\":\\\\\\\"wfs:FeatureCollection\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"wfs:member\\\\\\\"},{\\\\\\\"columnName\\\\\\\":\\\\\\\"usgsns:GNIS_DC_Features_20180401\\\\\\\"}]}]\\\",\\\"name\\\":\\\"wfs:member\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"xmlns:gml\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"xmlns:gml\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"xmlns:usgsns\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"xmlns:usgsns\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"xmlns:wfs\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"xmlns:wfs\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"xmlns:xs\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"xmlns:xs\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"xmlns:xsi\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"xmlns:xsi\\\"}]},{\\\"visible\\\":false,\\\"name\\\":\\\"xsi:schemaLocation\\\",\\\"id\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"xsi:schemaLocation\\\"}]}]\",
+                    \"name\": \"wfs:FeatureCollection\",
+                    \"id\": [{\"columnName\": \"wfs:FeatureCollection\"}]
+                }]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"gml:id\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"feature_uri\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"return gnis_uri(getValue(\\\"gml:id\\\"))\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"gml:id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"feature_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"AddNodeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"label\",
+                \"type\": \"other\",
+                \"value\": \"geosparql:Feature1\"
+            },
+            {
+                \"name\": \"uri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.opengis.net/ont/geosparql#Feature\"
+            },
+            {
+                \"name\": \"id\",
+                \"type\": \"other\",
+                \"value\": \"http://www.opengis.net/ont/geosparql#Feature1\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"gml:id\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.opengis.net/ont/geosparql#Feature\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.opengis.net/ont/geosparql#Feature1\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"gml:id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"gml:id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:COUNTY_NAM\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://data.usgs.gov/ontology/structures/hasCounty\",
+                    \"DomainLabel\": \"Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:COUNTY_NAM\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:COUNTY_NAM\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:ELEV_IN_M\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://dbpedia.org/ontology/dateLastUpdated\",
+                    \"DomainLabel\": \"Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:ELEV_IN_M\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:ELEV_IN_M\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:FEATURE_CL\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://dbpedia.org/ontology/purpose\",
+                    \"DomainLabel\": \"Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:FEATURE_CL\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:FEATURE_CL\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:FEATURE_ID\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://data.usgs.gov/ontology/structures/hasID\",
+                    \"DomainLabel\": \"geosparql:Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:FEATURE_ID\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:FEATURE_ID\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:FEATURE_NA\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://data.usgs.gov/ontology/structures/hasOfficialName\",
+                    \"DomainLabel\": \"Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:FEATURE_NA\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:FEATURE_NA\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:PRIM_LAT_D\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2003/01/geo/wgs84_pos#lat\",
+                    \"DomainLabel\": \"geosparql:Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:PRIM_LAT_D\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:PRIM_LAT_D\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:PRIM_LON_1\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.w3.org/2003/01/geo/wgs84_pos#long\",
+                    \"DomainLabel\": \"geosparql:Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:PRIM_LON_1\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:PRIM_LON_1\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:STATE_ALPH\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://data.usgs.gov/ontology/structures/hasState\",
+                    \"DomainLabel\": \"Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:STATE_ALPH\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:STATE_ALPH\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"http://localhost:8080/examples/usgs/r2rml/usgs_gnis-model.ttl\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"usgsns:the_geom\"},
+                    {\"columnName\": \"gml:Point\"},
+                    {\"columnName\": \"ns:wkt\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.opengis.net/ont/geosparql#Feature\",
+                    \"DomainId\": \"http://www.opengis.net/ont/geosparql#Feature1\",
+                    \"isPrimary\": true,
+                    \"FullType\": \"http://www.opengis.net/ont/geosparql#asWKT\",
+                    \"DomainLabel\": \"Feature1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:the_geom\\\"},{\\\"columnName\\\":\\\"gml:Point\\\"},{\\\"columnName\\\":\\\"ns:wkt\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"usgsns:the_geom\\\"},{\\\"columnName\\\":\\\"gml:Point\\\"},{\\\"columnName\\\":\\\"ns:wkt\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"UnassignSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"gml:id\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"gml:id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"gml:id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [
+                    {\"columnName\": \"wfs:FeatureCollection\"},
+                    {\"columnName\": \"wfs:member\"},
+                    {\"columnName\": \"usgsns:GNIS_DC_Features_20180401\"},
+                    {\"columnName\": \"feature_uri\"}
+                ]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.opengis.net/ont/geosparql#Feature\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.opengis.net/ont/geosparql#Feature1\"
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"feature_uri\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wfs:FeatureCollection\\\"},{\\\"columnName\\\":\\\"wfs:member\\\"},{\\\"columnName\\\":\\\"usgsns:GNIS_DC_Features_20180401\\\"},{\\\"columnName\\\":\\\"feature_uri\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 a rr:TriplesMap .
+
+_:node1cvn1pbrvx1 km-dev:hasTriplesMap km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx2 rr:tableName "usgs_gnis3" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasLogicalTable _:node1cvn1pbrvx2 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:logicalTable _:node1cvn1pbrvx2 ;
+	rr:subjectMap _:node1cvn1pbrvx3 .
+
+_:node1cvn1pbrvx1 km-dev:hasSubjectMap _:node1cvn1pbrvx3 .
+
+_:node1cvn1pbrvx3 km-dev:isPartOfMapping _:node1cvn1pbrvx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.opengis.net/ont/geosparql#Feature1" ;
+	rr:class geo:Feature ;
+	rr:template "{[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"feature_uri\"]}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_8b8301e9-f300-4456-bdb2-075385e854b5 rr:predicate <http://data.usgs.gov/ontology/structures/hasCounty> .
+
+_:node1cvn1pbrvx4 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:COUNTY_NAM\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx4 .
+
+km-dev:PredicateObjectMap_8b8301e9-f300-4456-bdb2-075385e854b5 rr:objectMap _:node1cvn1pbrvx4 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_8b8301e9-f300-4456-bdb2-075385e854b5 .
+
+km-dev:PredicateObjectMap_8b8301e9-f300-4456-bdb2-075385e854b5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8b8301e9-f300-4456-bdb2-075385e854b5 .
+
+km-dev:PredicateObjectMap_5b66b8ea-ff4e-4430-b669-76b6756b7ba2 rr:predicate <http://data.usgs.gov/ontology/structures/hasID> .
+
+_:node1cvn1pbrvx5 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:FEATURE_ID\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx5 .
+
+km-dev:PredicateObjectMap_5b66b8ea-ff4e-4430-b669-76b6756b7ba2 rr:objectMap _:node1cvn1pbrvx5 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_5b66b8ea-ff4e-4430-b669-76b6756b7ba2 .
+
+km-dev:PredicateObjectMap_5b66b8ea-ff4e-4430-b669-76b6756b7ba2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5b66b8ea-ff4e-4430-b669-76b6756b7ba2 .
+
+km-dev:PredicateObjectMap_7a1c6ea9-a5d0-40fb-bc01-22fe2241a65d rr:predicate <http://data.usgs.gov/ontology/structures/hasOfficialName> .
+
+_:node1cvn1pbrvx6 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:FEATURE_NA\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx6 .
+
+km-dev:PredicateObjectMap_7a1c6ea9-a5d0-40fb-bc01-22fe2241a65d rr:objectMap _:node1cvn1pbrvx6 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_7a1c6ea9-a5d0-40fb-bc01-22fe2241a65d .
+
+km-dev:PredicateObjectMap_7a1c6ea9-a5d0-40fb-bc01-22fe2241a65d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7a1c6ea9-a5d0-40fb-bc01-22fe2241a65d .
+
+km-dev:PredicateObjectMap_d367d9f9-b64a-4860-b233-94cbbde97196 rr:predicate <http://data.usgs.gov/ontology/structures/hasState> .
+
+_:node1cvn1pbrvx7 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:STATE_ALPH\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx7 .
+
+km-dev:PredicateObjectMap_d367d9f9-b64a-4860-b233-94cbbde97196 rr:objectMap _:node1cvn1pbrvx7 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_d367d9f9-b64a-4860-b233-94cbbde97196 .
+
+km-dev:PredicateObjectMap_d367d9f9-b64a-4860-b233-94cbbde97196 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d367d9f9-b64a-4860-b233-94cbbde97196 .
+
+km-dev:PredicateObjectMap_4364f758-3178-4e06-b2bb-1b05f21da518 rr:predicate <http://dbpedia.org/ontology/dateLastUpdated> .
+
+_:node1cvn1pbrvx8 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:ELEV_IN_M\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx8 .
+
+km-dev:PredicateObjectMap_4364f758-3178-4e06-b2bb-1b05f21da518 rr:objectMap _:node1cvn1pbrvx8 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_4364f758-3178-4e06-b2bb-1b05f21da518 .
+
+km-dev:PredicateObjectMap_4364f758-3178-4e06-b2bb-1b05f21da518 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4364f758-3178-4e06-b2bb-1b05f21da518 .
+
+km-dev:PredicateObjectMap_41100cbf-27f5-42e6-888e-dd7ebc0af642 rr:predicate <http://dbpedia.org/ontology/purpose> .
+
+_:node1cvn1pbrvx9 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:FEATURE_CL\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx9 .
+
+km-dev:PredicateObjectMap_41100cbf-27f5-42e6-888e-dd7ebc0af642 rr:objectMap _:node1cvn1pbrvx9 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_41100cbf-27f5-42e6-888e-dd7ebc0af642 .
+
+km-dev:PredicateObjectMap_41100cbf-27f5-42e6-888e-dd7ebc0af642 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_41100cbf-27f5-42e6-888e-dd7ebc0af642 .
+
+km-dev:PredicateObjectMap_82cec776-1bda-4072-99ba-3978dbd33206 rr:predicate geo:asWKT .
+
+_:node1cvn1pbrvx10 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:the_geom\",\"gml:Point\",\"ns:wkt\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx10 .
+
+km-dev:PredicateObjectMap_82cec776-1bda-4072-99ba-3978dbd33206 rr:objectMap _:node1cvn1pbrvx10 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_82cec776-1bda-4072-99ba-3978dbd33206 .
+
+km-dev:PredicateObjectMap_82cec776-1bda-4072-99ba-3978dbd33206 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_82cec776-1bda-4072-99ba-3978dbd33206 .
+
+km-dev:PredicateObjectMap_2d1c2215-5471-4231-81e4-0eb733f5ab8d rr:predicate wgs84pos:lat .
+
+_:node1cvn1pbrvx11 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:PRIM_LAT_D\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx11 .
+
+km-dev:PredicateObjectMap_2d1c2215-5471-4231-81e4-0eb733f5ab8d rr:objectMap _:node1cvn1pbrvx11 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_2d1c2215-5471-4231-81e4-0eb733f5ab8d .
+
+km-dev:PredicateObjectMap_2d1c2215-5471-4231-81e4-0eb733f5ab8d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2d1c2215-5471-4231-81e4-0eb733f5ab8d .
+
+km-dev:PredicateObjectMap_7bada3e8-0c1c-47a3-b62a-027f07b0883c rr:predicate wgs84pos:long .
+
+_:node1cvn1pbrvx12 rr:column "[\"wfs:FeatureCollection\",\"wfs:member\",\"usgsns:GNIS_DC_Features_20180401\",\"usgsns:PRIM_LON_1\"]" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasObjectMap _:node1cvn1pbrvx12 .
+
+km-dev:PredicateObjectMap_7bada3e8-0c1c-47a3-b62a-027f07b0883c rr:objectMap _:node1cvn1pbrvx12 .
+
+km-dev:TriplesMap_1612e61e-77bf-4510-83b8-2fd9cfd4c450 rr:predicateObjectMap km-dev:PredicateObjectMap_7bada3e8-0c1c-47a3-b62a-027f07b0883c .
+
+km-dev:PredicateObjectMap_7bada3e8-0c1c-47a3-b62a-027f07b0883c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1cvn1pbrvx1 .
+
+_:node1cvn1pbrvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_7bada3e8-0c1c-47a3-b62a-027f07b0883c .
